@@ -37,3 +37,4 @@ const ping = async (): Promise<string> => new Promise((resolve: (data: string) =
 });
 
 ping().then(console.log).catch(console.error);
+//test cmd commit
